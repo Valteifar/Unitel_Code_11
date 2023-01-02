@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FrontBox</title>
+</head>
+<body>
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu_logo">
+                    <a href="index.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li><a href="#somos" class="nav_link">Quem Somos</a></li>
+                        <li><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                        <li><a href="#planos" class="nav_link">Planos</a></li>
+                        <li><a href="#vantagens" class="nav_link">Vantagens</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#somos" class="nav_link">Quem Somos</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                    <li class="nav-item"><a href="#planos" class="nav_link">Planos</a></li>
+                    <li class="nav-item"><a href="#vantagens" class="nav_link">Vantagens</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="intro">Aprenda a programar, <br> um projecto por vez!</h1>
+        <hr>
+    </header>
+
+    <section class="somos" id="somos">
+        <h2 class="seccao_titulo">Quem somos</h2>
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p>
+                    Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                    lições da nossa história comum, das nossas raízes seculares e das culturas 
+                    que enriquecem a nossa unidade. Decididos a construir uma sociedade fundada na equidade de
+                    oportunidades, no compromisso, na fraternidade e na unidade na
+                    diversidade.
+                </p>
+                <br>
+                <p>
+                    Inspirados pelas melhores lições da tradição africana – substratofundamental da 
+                    cultura e da identidade angolanas. Revestidos de uma cultura de tolerância e 
+                    profundamente comprometidos com a reconciliação, a igualdade, a justiça e o desenvolvimento.
+                </p>
+            </div>
+            <div class="somos_imagem">
+                <img src="./img/somos.png" alt="Quem somos">
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="cursos" id="cursos">
+        <h2 class="seccao_titulo">Nossos Cursos</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="./img/ai.png" alt="Inteligência Artificial" class="curso_img">
+                <h3 class="curso_titulo">Inteligência Artificial</h3>
+                <p class="curso_descricao">
+                    Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                    lições da nossa história comum, das nossas raízes seculares e das culturas                    
+                </p>                
+            </div>
+            <div class="curso">
+                <img src="./img/front.png" alt="Frontend" class="curso_img">
+                <h3 class="curso_titulo">Frontend</h3>
+                <p class="curso_descricao">
+                    Inspirados pelas melhores lições da tradição africana – substratofundamental da 
+                    cultura e da identidade angolanas. Revestidos de uma cultura de tolerância                    
+                </p>               
+            </div>
+            <div class="curso">
+                <img src="./img/seguranca.png" alt="Segurança" class="curso_img">
+                <h3 class="curso_titulo">Segurança Digital</h3>
+                <p class="curso_descricao">
+                    Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                    lições da nossa história comum, das nossas raízes seculares e das culturas
+                </p>                
+            </div>
+            
+        </div>
+        <hr>
+    </section>
+
+    <section class="planos" id="planos">
+        <h2 class="seccao_titulo">Planos</h2>
+        <div class="planos_corpo">
+            <div class="plano">
+                <h2 class="plano_titulo">Básico</h2>
+                <span class="plano_preco"><sup>R$</sup>25</span>
+                <hr class="plano_divisor">
+                <ul class="plano_lista">
+                    <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista_item">Acesso a todos os cursos</li>
+                    <li class="plano-lista_item">Certificado de conclusão</li>
+                </ul>
+                <a href="#" class="plano_btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano_titulo">Premium</h2>
+                <span class="plano_preco"><sup>R$</sup>40</span>
+                <hr class="plano_divisor">
+                <ul class="plano_lista">
+                    <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista_item">Acesso a todos os cursos</li>
+                    <li class="plano-lista_item">Certificado de conclusão</li>
+                    <li class="plano-lista_item">Suporte</li>
+                </ul>
+                <a href="#" class="plano_btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano_titulo">Ultra</h2>
+                <span class="plano_preco"><sup>R$</sup>64</span>
+                <hr class="plano_divisor">
+                <ul class="plano_lista">
+                    <li class="plano-lista_item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista_item">Acesso a todos os cursos</li>
+                    <li class="plano-lista_item">Certificado de conclusão</li>
+                    <li class="plano-lista_item">Download das aulas</li>
+                    <li class="plano-lista_item">Suporte</li>
+                </ul>
+                <a href="#" class="plano_btn-comprar">Comprar</a>
+            </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Foco em projecto</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Portifólio incrível</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas</p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Aprenda fazendo</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas</p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Todas as idades</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas</p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Actualizado</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas</p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Comece hoje</h2>
+            <p class="vantagem_descricao">Invocando a memória dos nossos antepassados e apelando à sabedoria das 
+                lições da nossa história comum, das nossas raízes seculares e das culturas</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <h2 class="newsletter-info_titulo">newsletter</h2>
+                <p class="newsletter-info_descricao">Assine e fique por dentro das novidades</p>
+            </div>
+            <form action="" class="newsletter-form">
+                <input type="email" placeholder="seu e-mail" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer_copyright">Este é um projecto que servirá de maquete, para o meu projecto final.</p>
+        <a href="index.html">
+            <img src="./img/logo.png" alt="Frontbox Logo" class="footer_logo">
+        </a>
+    </footer>
+</body>
+<script src="./app.js"></script>
+</html>
