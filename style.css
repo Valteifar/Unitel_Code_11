@@ -154,6 +154,14 @@ li {
     border: 2px solid var(--verde-claro);
 }
 
+/* .premium {
+    margin-top: 30px;
+}
+
+.basico {
+    margin-top: 60px;
+} */
+
 .plano_titulo {
     font-size: 3rem;
     font-weight: bold;
@@ -174,7 +182,7 @@ li {
 }
 
 .plano_divisor {
-    background-color: var(--verde-claro);
+    background-color: var(--rosa-escuro);
     width: 100px;
     margin: 5px auto;
 }
@@ -199,6 +207,7 @@ li {
     margin-left: -15px;
 }
 
+
 .plano_btn-comprar {
     display: block;
     max-width: 180px;
@@ -209,6 +218,14 @@ li {
     text-align: center;
     text-transform: uppercase;
     border: 2px solid var(--verde-claro);
+}
+
+.lista_ultra::before {
+    background-color: var(--rosa-escuro);
+}
+
+.comprar_ultra {
+    border-color: var(--rosa-escuro);
 }
 
 .plano:last-child {
